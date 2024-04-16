@@ -109,11 +109,19 @@ hr {
 }
 
 /*7.-estilizamos el mostrar resultado  */
-#results-div p {
+#results-div div {
     font-weight: 600;
     margin-top: 20px;
     font-size: 20px;
     text-align: center;
+}
+
+.correct {
+    color: green;
+}
+
+.incorrect {
+    color: red;
 }
 
 /* 8.-estilizamos botones  */
